@@ -1,6 +1,17 @@
-.terraform/
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (These contain your entire infrastructure's "blueprint")
 *.tfstate
-*.tfstate.backup
-.aws/
-.env
-node_modules/
+*.tfstate.*
+
+# Variables files that might contain secrets
+*.tfvars
+*.tfvars.json
+
+# AWS Secret Key files
+*.pem
+*.ppk
+
+# Terraform crash logs
+crash.log
