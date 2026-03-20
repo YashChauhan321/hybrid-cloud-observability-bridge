@@ -16,6 +16,15 @@ A DevOps project demonstrating the provisioning of hybrid infrastructure using *
 - **Real-time Observability:** Tracks CPU, Memory, and Network metrics using Node Exporter.
 - **Visualization:** Interactive Grafana dashboards for infrastructure health monitoring.
 
+
+🚦 Current Status
+[x] Phase 1: AWS Infrastructure provisioned via Terraform.
+
+[x] Phase 2: Node Exporter deployed on Cloud Node.
+
+[/] Phase 3: Prometheus/Grafana integration (Active Development).
+
+
 ## 🛠️ Project Structure
 ```text
 .
@@ -27,27 +36,3 @@ A DevOps project demonstrating the provisioning of hybrid infrastructure using *
 │   ├── docker-compose.yml # Prometheus & Grafana stack
 │   └── prometheus.yml     # Scrape configurations for AWS & Local nodes
 └── README.md
-
-
-🚦 Current Status
-[x] Phase 1: AWS Infrastructure provisioned via Terraform.
-
-[x] Phase 2: Node Exporter deployed on Cloud Node.
-
-[/] Phase 3: Prometheus/Grafana integration (Active Development).
-
-📖 How to Deploy
-Infrastructure:
-
-Bash
-cd terraform
-terraform init
-terraform apply
-Monitoring:
-
-Bash
-cd monitoring
-docker-compose up -d
-
-Author: Yash Chauhan
-DevOps & Cloud Enthusiast
