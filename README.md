@@ -24,7 +24,7 @@ A DevOps project demonstrating the provisioning of hybrid infrastructure using *
 ├── monitoring/
 │   ├── docker-compose.yml # Prometheus & Grafana stack
 │   └── prometheus.yml     # Scrape configurations for AWS & Local nodes
-└── README.md```
+└── README.md
 
 ## 🚦 Current Status
 - [x] Phase 1: AWS Infrastructure provisioned via Terraform.
