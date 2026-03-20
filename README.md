@@ -17,12 +17,10 @@ A DevOps project demonstrating the provisioning of hybrid infrastructure using *
 - **Visualization:** Interactive Grafana dashboards for infrastructure health monitoring.
 
 
-🚦 Current Status
-[x] Phase 1: AWS Infrastructure provisioned via Terraform.
-
-[x] Phase 2: Node Exporter deployed on Cloud Node.
-
-[/] Phase 3: Prometheus/Grafana integration (Active Development).
+## 🚦 Current Status
+- [x] Phase 1: AWS Infrastructure provisioned via Terraform.
+- [x] Phase 2: Node Exporter deployed on Cloud Node.
+- [/] Phase 3: Prometheus/Grafana integration (Active Development).
 
 
 ## 🛠️ Project Structure
