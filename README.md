@@ -38,9 +38,10 @@ A DevOps project demonstrating the provisioning of hybrid infrastructure using *
    terraform init
    terraform apply
    
-2. **Monitoring:**
-cd monitoring
-docker-compose up -d
+1. **Infrastructure:**
+   ```bash
+   cd monitoring
+   docker-compose up -d
 
 Author: Yash Chauhan
 DevOps & Cloud Enthusiast
