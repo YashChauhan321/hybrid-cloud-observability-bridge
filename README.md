@@ -17,14 +17,19 @@ A DevOps project demonstrating the provisioning of hybrid infrastructure using *
 - **Visualization:** Interactive Grafana dashboards for infrastructure health monitoring.
 
 ## 🛠️ Project Structure
-├── terraform/
-│   ├── main.tf          # EC2 & Security Group definitions
-│   ├── provider.tf      # AWS Provider configuration
-│   └── outputs.tf       # Infrastructure output variables
-├── monitoring/
-│   ├── docker-compose.yml # Prometheus & Grafana stack
-│   └── prometheus.yml     # Scrape configurations for AWS & Local nodes
-└── README.md
+.
+├── terraform/                <-- Folder for AWS resources
+│   ├── main.tf
+│   ├── outputs.tf
+│   ├── provider.tf
+│   └── terraform.tfvars      <-- (Optional) For sensitive variables
+│
+├── monitoring/               <-- Folder for the Observability stack
+│   ├── docker-compose.yml
+│   └── prometheus.yml
+│
+├── .gitignore                <-- To hide .terraform and .tfstate
+└── README.md                 <-- The overview I gave you
 
 ## 🚦 Current Status
 - [x] Phase 1: AWS Infrastructure provisioned via Terraform.
