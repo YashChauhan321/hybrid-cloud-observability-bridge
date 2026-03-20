@@ -3,3 +3,4 @@
 *.tfstate.backup
 .aws/
 .env
+node_modules/
