@@ -1,7 +1,7 @@
 # Hybrid Cloud Observability Bridge
 A Terraform-managed hybrid infrastructure monitoring stack bridging AWS EC2 and local VMware environments using Prometheus and Grafana.
 
-A DevOps project demonstrating the provisioning of hybrid infrastructure using **Terraform (IaC)** and cross-platform monitoring using **Prometheus** and **Grafana**. This project bridges a local **VMware Workstation** environment with a public cloud node in **AWS (ap-south-1)**.
+A DevOps project demonstrating the provisioning of hybrid infrastructure using **Terraform (IaC)** and cross-platform monitoring using **Prometheus** and **Grafana**. This project bridges a local **VMware Workstation** environment with a public cloud  in **AWS (ap-south-1)**.
 
 ## 🏗️ Architecture
 - **Cloud Provider:** AWS (Mumbai Region)
