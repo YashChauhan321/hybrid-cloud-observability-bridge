@@ -13,5 +13,5 @@
 *.pem
 *.ppk
 
-# Terraform crash logs
+# Terraform crashlogs
 crash.log
